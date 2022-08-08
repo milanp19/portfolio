@@ -6,6 +6,10 @@
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0">
 	<title>HTML Project</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -243,10 +247,10 @@
 										</a>
 									</li>
 								</ul>
+								<!-- <hr color="#c2c0c3">
 								<hr color="#c2c0c3">
 								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
+								<hr color="#c2c0c3"> -->
 							</font>
 						</td>
 
@@ -258,9 +262,11 @@
 			</td>
 		</tr>
 	</table>
-	<!--Projects(end)-->
-    <hr color="black">
 
+	
+    <hr color="black">
+	<p style="color: #c2c0c3">(Hover on github)</p>
+	
 	<!--Footer1(start)-->
 	<table id="footer" border="0" width="100%"
 		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
@@ -276,7 +282,21 @@
 							</a>
 						</td>
 						<td width="13%" valign="top">
-							<b>GitHub</b>
+							<b class="git">GitHub
+								<div class="card" style="width: 18rem;">
+									<div class="card-header">
+									  Github
+									</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item">Followers: <span class="item1"></span></li>
+									  <li class="list-group-item">Following: <span class="item5"></span></li>
+									  <li class="list-group-item">Repositories: <span class="item2"></span></li>
+									  <li class="list-group-item">URL: <a href = "https://github.com/milanp19"><span class="item3"></span></a></li>
+									  <li class="list-group-item">Profile Pic: <a href="https://avatars.githubusercontent.com/u/93727559?v=4"><span class="item4"></span></a></li>	
+									</ul>
+								</div>
+							</b>
+							
 							<a href="#" style="text-decoration:none">
 								➲
 							</a>
@@ -312,6 +332,8 @@
 	</table>
 	<!--Footer1(end)-->
 
+	
+
 
 	<!--Footer2(start)-->
 	<table id="footer" border="0" width="100%"
@@ -345,6 +367,9 @@
 	</table>
 	<!--Footer2(end)-->
 
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
 </body>
 
 </html>
